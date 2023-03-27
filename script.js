@@ -57,3 +57,6 @@ for(i=0;i<tools.length;i++){
         }
     })
 }
+function displayText(text){
+    display.innerHTML=text;
+}
