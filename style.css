@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&family=Style+Script&display=swap');
+
+.body{
+    background: linear-gradient(rgb(195, 195, 206),rgb(187, 118, 118),rgb(24, 55, 138));
+}
+.calculator{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+    
+}
+.calc-frame{ 
+    border:1px solid black;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:38vh;
+    padding: 0px 12px;
+    padding-top:40px;
+    box-shadow: 0px 6px 10px rgb(4, 138, 38); 
+    background: white;
+}
+
+.atomic-item{
+   
+   align-self: center;
+    outline: none;
+    margin: 10.2px;
+    padding: 9px;
+    border-radius: 99px;
+    text-align: center;
+    
+    box-shadow: 0px 6px 10px rgb(45, 23, 167); 
+}
+#display{
+    
+    resize: none;
+    height: 20px;
+    width: 210px;
+    font-size: large;
+    scroll-behavior: unset; 
+    box-shadow: 4px 3px 10px;
+    outline: none;
+}
+.h2{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+    font-family: 'Style Script', cursive;
+    color: rgb(238, 17, 17);
+    text-shadow: -4px 3px 10px rgb(97, 5, 245);
+    font-size: 2rem;
+}
+.atomic-item:hover{
+    font-size: 12px;
+    color: blue;
+    cursor:pointer;
+}
+.h2:hover{
+    cursor:none;
+}
+#divide-button{
+   margin-left: 10px;
+}
+#backspace-button{
+    margin-left: 10px;
+    margin-right: 2px;
+}
+.bold{
+    font-weight:300px;
+}
